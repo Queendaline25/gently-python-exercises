@@ -4,10 +4,6 @@ def convertToFahrenheit(degreesCelsius):
 
     return degreesCelsius * (9 / 5) + 32
 
- 
-
- 
-
 def convertToCelsius(degreesFahrenheit):
 
     # Calculate and return the degrees Celsius:
@@ -15,4 +11,3 @@ def convertToCelsius(degreesFahrenheit):
     return (degreesFahrenheit - 32) * (5 / 9)
 
 
-print(convertToCelsius(100))
